@@ -4,8 +4,12 @@ require File.expand_path('../lib/yatch/version', __FILE__)
 Gem::Specification.new do |gem|
   gem.authors       = ["Alexandre de Oliveira"]
   gem.email         = ["chavedomundo@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
+  gem.description   = <<-DESC
+    Creates an interfaces with access to the main components of a server,
+    allowing one to interact with services and process, such as databases and
+    memory management tools, through easy commands.
+  DESC
+  gem.summary       = %q{Manage and monitor Linux servers}
   gem.homepage      = ""
 
   gem.files         = `git ls-files`.split($\)
